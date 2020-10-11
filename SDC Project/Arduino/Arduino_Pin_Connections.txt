@@ -1,0 +1,26 @@
+ARDUINO PIN CONNECTIONS:
+
+ULTRASONIC SENSOR (HC-SR04):
+	Sensor 1 (FRONT-LEFT):
+		Trigger: 25
+		Echo: 27
+	Sensor 2 (FRONT-RIGHT):
+		Trigger: 45
+		Echo: 47
+	Sensor 3 (BACK-RIGHT):
+		Trigger: 44
+		Echo: 46
+	Sensor 4 (BACK-LEFT):
+		Trigger: 24	
+		Echo: 26
+
+MOTOR CONTROL (L298 IC):
+	PWM PINS:
+		ENA: 9 (Enable pin for motor A, it steers the car)
+		ENB: 8 (Enable pin for motor B, it accelerates the car)
+
+	DIGITAL PINS:
+		IN1: 30 (for motor A)
+		IN2: 28	(for motor A)
+		IN3: 31 (for motor B)
+		IN4: 29	(for motor B)
