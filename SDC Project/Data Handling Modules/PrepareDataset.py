@@ -464,7 +464,7 @@ class PrepareDataset(VideoDatasetHandler):
 
             file_iter+=batch_size
 
-def doMeDaddy(data_dir):
+def test(data_dir):
     p = PrepareDataset(data_dir)
     print("Daddy Now Creating Master DataFrame ;)\n")
     df = p.createMasterDataframe()
