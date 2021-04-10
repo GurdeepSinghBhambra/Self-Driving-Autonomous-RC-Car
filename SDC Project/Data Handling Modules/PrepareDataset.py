@@ -466,13 +466,12 @@ class PrepareDataset(VideoDatasetHandler):
 
 def test(data_dir):
     p = PrepareDataset(data_dir)
-    print("Daddy Now Creating Master DataFrame ;)\n")
+    print("Creating Master DataFrame\n")
     df = p.createMasterDataframe()
     print("")
     p.saveFile(df=df, mode='master')
-    print("Daddy saved Master DataFrame ;)\n")
+    print("Saved Master DataFrame\n")
     print("")
-    print("Daddy is spliting up now ;)\n")
+    print("Spliting up now ;)\n")
     p.train_test_split(validation=True)
-    print("Daddy has now given you the object ;)\n")
     return p
