@@ -1,7 +1,7 @@
 # Self-Driving-Autonomous-RC-Car
 This project aims to build a self driving remote controlled car.
 
-This project had its own dataset which was created on-site (my collage campus and my house).
+This project had its own dataset which was created on-site (my college campus and my house).
 
 Client Side Hardware:
 
